@@ -1,6 +1,5 @@
 import java.util.*;
-
-class over
+class OverloadingFunctionSeries
 {
 void series()
 {
