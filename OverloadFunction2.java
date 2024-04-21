@@ -1,5 +1,5 @@
 import java.util.*;
-class OverloadedFunctionLib
+class OverloadFunction2
 {
 void series(int n)
 {
@@ -19,10 +19,10 @@ p=(int)(Math.pow(a,i));
 System.out.println(p);
 }
 }
-public static void main()
+public static void main(String args[])
 {
 Scanner in=new Scanner(System.in);
-OverloadedFunctionLib obj=new OverloadedFunctionLib();
+OverloadFunction2 obj=new OverloadFunction2();
 int n;
 System.out.println("Enter a number");
 n=in.nextInt();

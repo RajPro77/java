@@ -1,7 +1,7 @@
 import java.util.*;
-class ArmstrongNumCheck
+class ArmstrongNum
 {
-public static void main()
+public static void main(String[] args)
 {
 Scanner in=new Scanner(System.in);
 int n,s=0,cb,d;
@@ -17,6 +17,6 @@ cb=cb/10;
 if(s==n)
 System.out.println("Armstrong Number");
 else
-System.out.println("Not armstrong number");
+System.out.println("Not an armstrong number");
 }
 }
