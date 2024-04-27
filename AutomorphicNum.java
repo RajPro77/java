@@ -1,7 +1,7 @@
 import java.util.*;
-class AutomrphicNumCheck
+class AutomorphicNum
 {
-public static void main()
+public static void main(String args[])
 {
 Scanner in=new Scanner(System.in);
 int n ,sq,x,c=0,d,nn,nd;
@@ -18,8 +18,8 @@ x=x/10;
 nd=(int)(Math.pow(10,c));
 nn=sq%nd;
 if(nn==n)
-System.out.println("Automorphic number    "+n);
+System.out.println(n+ " is an Automorphic number.");
 else
-System.out.println("Not automorphic number    "+n);
+System.out.println(n+" is not an Automorphic number.");
 }
 }
