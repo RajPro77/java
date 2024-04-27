@@ -25,7 +25,7 @@ a+=3;
 public static void main(String args[])
 {
 Scanner in=new Scanner(System.in);
-over obj=new over();
+OverloadingFunctionSeries obj=new OverloadingFunctionSeries();
 int n;
 System.out.println("Enter n ");
 n=in.nextInt();
