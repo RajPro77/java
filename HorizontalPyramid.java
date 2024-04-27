@@ -1,6 +1,6 @@
-class HorizontalPyramidPattern
+class HorizontalPyramid
 {
-public static void main()
+public static void main(String args[])
 {
 int i,j,k;
 for(i=1;i<=5;i++)
